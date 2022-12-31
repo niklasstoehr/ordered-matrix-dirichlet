@@ -1,0 +1,12 @@
+[paths]
+mappings = "mappings"
+icews = "data/conflict/icews"
+results = "results"
+plots = "results/plots"
+data_proc = "results/data_proc"
+sleep = "data/sleep"
+climate = "data/climate"
+sentiment = "data/sentiment"
+sentiment_glove = "data/sentiment/glove"
+
+
