@@ -58,8 +58,9 @@ def combine_trace_sites(site_data, stack_dim = -1):
                     site_dict[k].append(v) ## copy over elements
             del site_data[site]
 
-    site_dict = combine_trace_site_vars(site_dict, stack_dim)
-    site_data[split_site] = site_dict
+    if len(split_site) > 0:
+        site_dict = combine_trace_site_vars(site_dict, stack_dim)
+        site_data[split_site] = site_dict
     return site_data
 
 
